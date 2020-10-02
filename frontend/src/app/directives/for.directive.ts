@@ -17,5 +17,4 @@ export class ForDirective implements OnInit {
      }    
 
    }
-
 }
