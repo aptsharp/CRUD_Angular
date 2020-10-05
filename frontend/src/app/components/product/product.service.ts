@@ -9,11 +9,11 @@ export class ProductService {
   constructor(private snackBar: MatSnackBar) { }
 
   showMessage(msg: string): void{
-    this.snackBar.open(msg, '', {
+    this.snackBar.open(msg, 'X', {
       duration: 5000,
       horizontalPosition: "right",
       verticalPosition: "top"
-    }
+    })
   }
 }
 
@@ -28,4 +28,6 @@ e você faz o usso do jornal como desejar.
 -> No Angular a injeção de dependencia é somente via construtor.
 
 -> no service fica a chamada a aplicação back end
+
+-> utilização do singleton (classe que tem uma unica instancia)
 */
