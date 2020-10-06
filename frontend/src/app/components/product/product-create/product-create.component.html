@@ -1,11 +1,17 @@
-<div>
-    <button mat-raised-button (click)="createProduct()" color="primary" >
-        Acrescentar
-    </button>
-</div>
-
-<div>
-    <button mat-raised-button (click)="cancel()" color="alert">
-        Cancelar
-    </button>
-</div>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)">
+        </mat-form-field>
+    </form>
+</mat-card>
+<button mat-raised-button (click)="createProduct()" color="primary" >
+    Salvar
+</button>
+<button mat-raised-button (click)="cancel()" color="alert">
+    Cancelar
+</button>
