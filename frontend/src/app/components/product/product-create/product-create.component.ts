@@ -11,8 +11,8 @@ import { Router } from '@angular/router';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    name: 'teste',
-    price: 150.98
+    name: '',
+    price: null
   }
 
   constructor(private productService: ProductService, private router: Router )  { }
@@ -22,7 +22,7 @@ export class ProductCreateComponent implements OnInit {
 
   createProduct(): void{
     this.productService.create(this.product).subscribe(() =>{
-      this.productService.showMessage('Produto Creiado')
+      this.productService.showMessage('Produto Criado')
       this.router.navigate(['/products'])   
     })    
 
