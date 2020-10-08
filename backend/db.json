@@ -13,7 +13,17 @@
     {
       "id": 3,
       "name": "Sansung S20",
-      "price": 500.89
+      "price": "500"
+    },
+    {
+      "name": "Afonso Rafael Moraes Simão",
+      "price": "10065416",
+      "id": 4
+    },
+    {
+      "name": "teste-alteração",
+      "price": "100",
+      "id": 5
     }
   ]
 }
