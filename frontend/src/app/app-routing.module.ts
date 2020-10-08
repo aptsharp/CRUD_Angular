@@ -1,3 +1,4 @@
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { from } from 'rxjs';
@@ -24,6 +25,10 @@ component: AboutComponent
 {
   path:"products/create",
   component: ProductCreateComponent
+},
+{
+  path:"products/update/:id",
+  component: ProductUpdateComponent
 }
 ];
 
