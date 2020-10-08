@@ -1,6 +1,6 @@
 import { ProductService } from './../product.service';
 import { Product } from './../product.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, LOCALE_ID } from '@angular/core';
 
 @Component({
   selector: 'app-product-read',
