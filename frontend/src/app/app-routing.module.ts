@@ -32,7 +32,7 @@ component: AboutComponent
   component: ProductUpdateComponent
 },
 {
-  path:"products/readById/:id",
+  path:"products/delete/:id",
   component: ProductDeleteComponent
 }
 ];

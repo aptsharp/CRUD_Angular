@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "price": 1.5
+      "price": "1.5"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "id": 4
     },
     {
-      "name": "teste-alteração",
+      "name": "excluir",
       "price": "100",
       "id": 5
     }
