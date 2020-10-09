@@ -19,7 +19,8 @@ export class ProductService {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top"
-    })
+      panelClass:['msg-success']
+    });
   }
 
   // Observable é baseado em envento, ocorre somente quando é feito algo
