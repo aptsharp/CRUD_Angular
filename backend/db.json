@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": "1.5"
-    },
-    {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
       "id": 3,
       "name": "Sansung S20",
       "price": "500"
@@ -21,9 +11,9 @@
       "id": 4
     },
     {
-      "name": "excluir",
-      "price": "100",
-      "id": 5
+      "name": "Afonso Rafael Moraes Simão",
+      "price": "654987321",
+      "id": 7
     }
   ]
 }
