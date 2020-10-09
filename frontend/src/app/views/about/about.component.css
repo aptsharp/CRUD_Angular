@@ -1,0 +1,23 @@
+figure {
+    float: right;
+    width: 25%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.logo {
+    width: 100%;
+  }
+
+  img.logo_LinkedIn {
+    align-items: center;
+    width: 50%;
+  } 
+ img.logo_GitHub {
+    width: 50%;
+    align-items: center;
+  }
