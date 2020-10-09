@@ -1,8 +1,10 @@
+import { map } from 'rxjs/operators';
 import { Product } from './product.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {MatSnackBar} from '@angular/material/snack-bar';
-import { Observable } from 'rxjs';
+import { EMPTY, Observable } from 'rxjs';
+import { TOOLTIP_PANEL_CLASS } from '@angular/material/tooltip';
 // import { url } from 'inspector';
 
 @Injectable({
@@ -14,19 +16,26 @@ export class ProductService {
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
-  showMessage(msg: string): void{
+  showMessage(msg: string, isError: boolean = false): void{
     this.snackBar.open(msg, 'X', {
       duration: 3000,
       horizontalPosition: "right",
-      verticalPosition: "top"
-      panelClass:['msg-success']
+      verticalPosition: "top",
+      panelClass: isError ? ['msg-error'] : ['msg-success']
     });
   }
 
   // Observable é baseado em envento, ocorre somente quando é feito algo
 
   create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product)
+    return this.http.post<Product>(this.baseUrl, product).pipe(map((obj) => obj),
+    catch((e)) => this.errorHandler(e))
+    )
+  }
+
+  errorHandler(e: any): Observable<any>{
+    this.showMessage("Error", true);
+    return EMPTY;
   }
 
   read(): Observable<Product[]>{
