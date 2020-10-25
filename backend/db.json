@@ -1,29 +1,59 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "Sansung S20",
-      "price": "500"
+      "name": "Notebook Acer Aspire 5 A515-54G-73Y1 Intel Core I7 8GB 512GB SSD MX250 15,6' Endless Os",
+      "price": "4399.12",
+      "id": 1
     },
     {
-      "name": "Afonso Rafael Moraes Simão",
-      "price": "10065416",
+      "name": "Notebook Gamer Acer Predator Helios 300 PH315-52-7210 RTX2060 Tela 144hz Ci7 16GB SSD 256GB HD 2TB Win10",
+      "price": "8799.12",
+      "id": 2
+    },
+    {
+      "name": "Notebook Gamer Predator Helios 300 PH315-52-79VM Intel Core i7 16GB 256GB SDD 1TB HD RTX 2060 15,6 Endless",
+      "price": "8535.12",
+      "id": 3
+    },
+    {
+      "name": "Notebook gamer acer Nitro 5 AN515-43-R4C3 AMD Ryzen 7 1TB HD 128GB SSD GTX 1650 15,6 Endless OS",
+      "price": "5367.12",
       "id": 4
     },
     {
-      "name": "Afonso Rafael Moraes Simão",
-      "price": "654987321",
+      "name": "Notebook Gamer Acer Aspire nitro 5 AN515-43-R9K7 AMD Ryzen 5 8GB 1TB HD 256GB SSD GTX 1650 15,6' Endless",
+      "price": "4487.12",
+      "id": 5
+    },
+    {
+      "name": "Notebook Gamer Aspire Nitro 5 AN517-51-55NT Intel Core I5 8GB 1TB HD 128GB SSD GTX 1650 17,3' Endless OS",
+      "price": "5191.12",
+      "id": 6
+    },
+    {
+      "name": "Notebook Gamer Aspire Nitro 5 AN515-43-R59W AMD Ryzen 5 8GB 1TB HD 128GB SSD GTX 1650 15,6' Windows 10",
+      "price": "5015.12",
       "id": 7
     },
     {
-      "name": "Afonso Rafael Moraes Simão",
-      "price": "65",
-      "id": 9
+      "name": "Notebook Gamer Acer Predator Helios 300 PH315-52-748u GTX 1660TI Core i7 16GB SSD 128GB HD 1TB Win10",
+      "price": "8183.12",
+      "id": 8
     },
     {
-      "name": "Afonso Rafael Moraes Simão de Saggis",
-      "price": "9520",
+      "name": "Notebook Gamer Acer Predator Helios 300 PH315-52-7210 RTX2060 Tela 144hz Ci7 16GB SSD 256GB HD 2TB Win10",
+      "price": "8799.12",
       "id": 10
+    },
+    {
+      "name": "Notebook Gamer Predator Helios 300 PH315-52-79VM Intel Core i7 16GB 256GB SDD 1TB HD RTX 2060 15,6 Endless",
+      "price": "8535.12",
+      "id": 11
+    },
+    {
+      "name": "Notebook Gamer Acer Predator Helios 300 PH315-52-748u GTX 1660TI Core i7 16GB SSD 128GB HD 1TB Win10",
+      "price": "8183.12",
+      "id": 12
     }
   ]
 }
